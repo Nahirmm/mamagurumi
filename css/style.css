@@ -149,14 +149,13 @@ header div nav div button .navbar-toggler-icon {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 2rem;
 }
 
 .sectionModelos__Galeria__div .divModelosFigure figure {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin: 1rem;
+  margin: 2rem;
   border: solid 1px black;
   width: auto;
   padding: 0.5rem;
