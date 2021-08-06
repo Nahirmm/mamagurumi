@@ -19,6 +19,7 @@ $fontFamily: 'nunito', sans-serif;
 .sectionModelos__Galeria__div {
     display: flex;
     flex-direction: column;
+    margin: 2rem;
 
     .divModelosFigure {
         display: flex;
@@ -29,7 +30,7 @@ $fontFamily: 'nunito', sans-serif;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
-            margin: 2rem;
+            margin: 2.5rem;
             border: solid 1px black;
             width: auto;
             padding: 0.5rem;
