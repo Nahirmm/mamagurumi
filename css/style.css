@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -29,8 +28,7 @@ a {
 }
 
 .rotacion {
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 
 .colorParrafo {
@@ -39,7 +37,6 @@ a {
 }
 
 header div nav {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#EBCFB2), to(white));
   background-image: linear-gradient(to top, #EBCFB2, white);
   width: 100%;
 }
@@ -77,19 +74,10 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .indexEncabezado {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -114,16 +102,9 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .indexBotones .indexBotones__figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: column nowrap;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -152,55 +133,29 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .sectionModelos__Galeria {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
   margin: 4rem;
 }
 
 .sectionModelos__Galeria__div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .sectionModelos__Galeria__div .divModelosFigure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2rem;
 }
 
 .sectionModelos__Galeria__div .divModelosFigure figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: column nowrap;
+  align-items: center;
   margin: 1rem;
   border: solid 1px black;
   width: auto;
@@ -236,8 +191,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .ganeshaykrishna:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .milo {
@@ -246,8 +200,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .milo:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .laraysusdisfraces {
@@ -256,8 +209,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .laraysusdisfraces:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .camilooso {
@@ -266,8 +218,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .camilooso:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .candy {
@@ -276,8 +227,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .candy:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .cotorra {
@@ -286,8 +236,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .cotorra:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .ursulaygatito {
@@ -296,8 +245,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .ursulaygatito:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .animalitos {
@@ -306,8 +254,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .animalitos:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .kiaraydin {
@@ -316,8 +263,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .kiaraydin:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .configuracionHGenerico, .configuracionH-1, .sectionPatrones .sectionPatrones__estiloVideos h4, .configuracionH-2, h3 {
@@ -351,16 +297,9 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .sectionPatrones {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
   margin: 0 3rem 10rem 3rem;
 }
 
@@ -372,17 +311,10 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .sectionNosotros {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+  flex-flow: row nowrap;
   margin: 1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .sectionNosotros #familiaNosotros {
@@ -397,19 +329,10 @@ header div nav div button .navbar-toggler-icon {
 }
 
 #lineaFotosNosotros {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
   margin: 2rem;
 }
 
@@ -439,43 +362,24 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .mainContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 5rem;
 }
 
 .mainContacto .formContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   width: 50rem;
 }
 
 .mainContacto .formContacto fieldset {
   font-size: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
   padding: 3rem;
 }
 
@@ -498,19 +402,10 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .formContacto__div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .formContacto__div .marginItems {
@@ -544,25 +439,16 @@ footer {
 
 .footer {
   font-size: 2rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#EBCFB2), to(white));
   background-image: linear-gradient(to bottom, #EBCFB2, white);
   border-top: solid 0.2rem #424b54;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 3rem;
 }
 
 .footer__novedades {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -713,27 +599,17 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .sectionNosotros {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .sectionNosotros #familiaNosotros {
     width: 90%;
     height: 90%;
   }
   #lineaFotosNosotros {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 
