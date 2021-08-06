@@ -1,0 +1,75 @@
+$colorLetrasOscuro: #424b54; 
+$colorLetrasMasOscuro: #25313d;  
+
+
+.mainContacto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+    .formContacto {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        width: 50rem;
+
+        fieldset {
+            font-size: 2rem;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3rem;
+
+            .formContacto__encabezado {
+                color: $colorLetrasMasOscuro;
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
+
+.colorFormulario {
+    color: $colorLetrasOscuro;
+    text-align: center;
+}
+
+.formContacto__formItems {
+    display: block;
+    margin: 1rem;
+    font-family: 'nunito', sans-serif;
+    width: 30rem;
+    height: 5rem;
+}
+
+.formContacto__div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    .marginItems {
+        margin: 1rem;
+    }
+}
+
+.formContacto__formItems--comentarios {
+    height: 15rem;
+}
+
+.formContacto__div__colorNews {
+    color: $colorLetrasMasOscuro;
+}
+
+.botonesContacto {
+    display: inline;
+    margin: 1.2rem;
+
+    .botonesContacto__boton {
+        margin: 0rem 2.5rem;
+        height: 5rem;
+        width: 16rem;
+        font-size: 1.5rem;
+    }
+}
+

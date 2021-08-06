@@ -1,0 +1,144 @@
+$fontFamily: 'nunito', sans-serif;
+
+.modelosTexto {
+    text-align: center;
+
+    .modelosTexto__p {
+        font-size: 2rem;
+    }
+}
+
+.sectionModelos__Galeria {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem;
+}
+
+.sectionModelos__Galeria__div {
+    display: flex;
+    flex-direction: column;
+
+    .divModelosFigure {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        
+        figure {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            margin: 1rem;
+            border: solid 1px black;
+            width: auto;
+            padding: 0.5rem;
+            img {
+                margin: 0.7rem;
+            }
+            button {
+                font-size: 1.5rem;
+                font-family: $fontFamily;
+                width: 20rem;
+            }
+        }
+    }
+}
+
+.modal-title {
+    font-size: 2rem;
+}
+
+.listaSinCosito {
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.ganeshaykrishna {
+    width: 28rem;
+    height: 28rem;
+}
+
+.ganeshaykrishna:hover {
+    transform: scale(1.2,1.2);
+}
+
+.milo {
+    width: 28rem;
+    height: 28rem;    
+}
+
+.milo:hover {
+    transform: scale(1.2,1.2);
+}
+
+.laraysusdisfraces {
+    width: 28rem;
+    height: 28rem;
+}
+
+.laraysusdisfraces:hover {
+    transform: scale(1.2,1.2);
+}
+
+.camilooso {
+    width: 28rem;
+    height: 28rem;
+}
+
+.camilooso:hover {
+    transform: scale(1.2,1.2);
+}
+
+.candy {
+    width: 45.39rem;
+    height: 28rem;
+}
+
+.candy:hover {
+    transform: scale(1.2,1.2);
+}
+
+.cotorra {
+    width: 22.50rem;
+    height: 28rem;
+}
+
+.cotorra:hover {
+    transform: scale(1.2,1.2);
+}
+
+.ursulaygatito {
+    width: 28rem;
+    height: 28rem;    
+}
+
+.ursulaygatito:hover {
+    transform: scale(1.2,1.2);
+}
+
+.animalitos {
+    width: 44.4rem;
+    height: 28rem;
+}
+
+.animalitos:hover {
+    transform: scale(1.2,1.2);
+}
+
+.kiaraydin {
+    width: 28rem;
+    height: 28rem;     
+}
+
+.kiaraydin:hover {
+    transform: scale(1.2,1.2);
+}
+
+
+
+

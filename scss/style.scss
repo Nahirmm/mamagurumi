@@ -1,0 +1,59 @@
+$background: #EBCFB2;
+$colorLetrasOscuro: #424b54; 
+$colorLetrasMasOscuro: #25313d;  
+$fontFamily: 'nunito', sans-serif;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $background;
+    font-family: $fontFamily;
+}
+
+a {
+    text-decoration: none;
+    color: $colorLetrasOscuro;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.disenioSubtitulos {
+    color: #25313d;
+    font-size: 5rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.rotacion {
+    transform: rotate(-2deg);
+}
+
+.colorParrafo {
+    color: $colorLetrasOscuro;
+    font-size: 2rem;
+}
+
+@import "header";
+@import "mainIndex";
+@import "mainmodelos";
+@import "mainpatrones";
+@import "mainnosotros";
+@import "maincontacto";
+@import "footer";
+
+@import "mediaqueriesIndex";
+@import "mediaqueriesModelos";
+@import "mediaqueriesPatrones";
+@import "mediaqueriesNosotros";
+@import "mediaqueriesContacto";
+
+@import "mediaqueriesVarios";
