@@ -52,25 +52,54 @@
             </nav>
         </div>
     </header>
-    <h1 class="disenioSubtitulos rotacion">Contacto</h1>
-    <h2> Dejanos tus datos y pronto nos comunicaremos con vos!</h2>
     <main class="mainContacto">
-        <form action="" class="colorFormulario formContacto">
-            <fieldset>
-                <input type="text" id="nombre" class="formContacto__formItems" placeholder="Ingrese su nombre" required>
-                <input type="text" id="apellidos" class="formContacto__formItems" placeholder="Ingrese su apellido" required>
-                <input type="email" id="email" class="formContacto__formItems" placeholder="Ingrese su email" required>
-                <div class="formContacto__div">
-                    <label for="newsletter" class="marginItems formContacto__div__colorNews">¿Desea recibir el newsletter?</label>  
-                    <input type="checkbox" name="envioNewsletter" id="newsletter" class="marginItems">       
-                </div>
-                <textarea name="comentarios" cols="30" rows="10" class="colorFormulario formContacto__formItems formContacto__formItems--comentarios">Comentarios</textarea>
-            </fieldset>
-            <div class="botonesContacto">
-                <input type="reset" value="Limpiar formulario" class="colorFormulario botonesContacto__boton">
-                <input type="submit" value="Enviar formulario" class="colorFormulario botonesContacto__boton">
+        <h1 class="disenioSubtitulos rotacion">Contacto</h1>
+        <div class="divContacto">
+            <div class="divContacto__divInfo">
+                <h3>NO DUDES EN ESCRIBIRNOS SI:</h3>
+                <ul>
+                    <li>Tienes cualquier duda o consulta sobre mis servicios.</li>
+                    <li>Deseas que realicemos una colaboración profesional.</li>
+                    <li>Quieres sugerirme contenidos para la página.</li>
+                    <li>Quieres darme feedback sobre alguno de mis servicios.</li>
+                    <li>O cualquier otra cosa que se te ocurra!</li>
+                </ul>
+                <h3>¡Importante!</h3>
+                <p>
+                    Podemos tardar entre 24 y 48 horas en responder. 
+                    <br>
+                    También pueden escribirnos directamente al email: consultas@mamagurumi.com
+                </p>
             </div>
-        </form>
+            <form action="" class="formContacto">
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="floatingInput" type="text" placeholder="Ingrese su nombre" aria-label=".form-control-lg example" required>
+                    <label class="colorFormulario" for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label class="colorFormulario" for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="floatingInput" type="text" placeholder="Ingrese el asunto" aria-label=".form-control-lg example" required>
+                    <label class="colorFormulario" for="floatingInput">Asunto</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                    <label class="colorFormulario" for="floatingTextarea2">Consultas o comentarios</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        ¿Desea recibir nuestro newsletter?
+                    </label>
+                </div>
+                <div class="botonesContacto">
+                    <input type="reset" value="Limpiar formulario" class="btn btn-outline-dark colorFormulario botonesContacto__boton">
+                    <input type="submit" value="Enviar formulario" class="btn btn-dark colorFormulario botonesContacto__boton">
+                </div>
+            </form>
+        </div>
     </main>
     <footer class="container-fluid">
         <div class="footer row">

@@ -361,63 +361,56 @@ header div nav div button .navbar-toggler-icon {
   width: 27.024rem;
 }
 
-.mainContacto {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5rem;
+.mainContacto h1 {
+  margin-bottom: 6rem;
 }
 
-.mainContacto .formContacto {
+.divContacto {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 0 2rem 5rem 2rem;
+  font-family: "nunito", sans-serif;
+}
+
+.divContacto .divContacto__divInfo {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.divContacto .divContacto__divInfo h3 {
+  margin: 1.5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.divContacto .divContacto__divInfo ul {
+  margin-bottom: 2rem;
+}
+
+.divContacto .divContacto__divInfo ul li {
+  color: #424b54;
+  font-family: "nunito", sans-serif;
+  font-size: 1.8rem;
+}
+
+.divContacto .divContacto__divInfo p {
+  color: #424b54;
+  font-size: 1.8rem;
+}
+
+.divContacto .formContacto {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
   width: 50rem;
+  font-size: 1.5rem;
+  margin: 2rem;
 }
 
-.mainContacto .formContacto fieldset {
-  font-size: 2rem;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem;
-}
-
-.mainContacto .formContacto fieldset .formContacto__encabezado {
-  color: #25313d;
-  font-size: 2.3rem;
-}
-
-.colorFormulario {
-  color: #424b54;
-  text-align: center;
-}
-
-.formContacto__formItems {
-  display: block;
+.form-check {
+  font-size: 1.5rem;
   margin: 1rem;
-  font-family: 'nunito', sans-serif;
-  width: 30rem;
-  height: 5rem;
-}
-
-.formContacto__div {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.formContacto__div .marginItems {
-  margin: 1rem;
-}
-
-.formContacto__formItems--comentarios {
-  height: 15rem;
-}
-
-.formContacto__div__colorNews {
-  color: #25313d;
 }
 
 .botonesContacto {
@@ -427,8 +420,8 @@ header div nav div button .navbar-toggler-icon {
 
 .botonesContacto .botonesContacto__boton {
   margin: 0rem 2.5rem;
-  height: 5rem;
-  width: 16rem;
+  height: 4rem;
+  width: 14rem;
   font-size: 1.5rem;
 }
 
@@ -610,6 +603,107 @@ footer {
   #lineaFotosNosotros {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1216px) {
+  .divContacto .divContacto__divInfo h3 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 1086px) {
+  .divContacto .divContacto__divInfo h3 {
+    font-size: 3rem;
+  }
+  .botonesContacto .botonesContacto__boton {
+    width: 13rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 977px) {
+  .botonesContacto .botonesContacto__boton {
+    width: 12rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 926px) {
+  .botonesContacto .botonesContacto__boton {
+    width: 10rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 946px) {
+  .divContacto .divContacto__divInfo h3 {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 822px) {
+  .mainContacto h1 {
+    margin-bottom: 2rem;
+  }
+  .divContacto {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainContacto h1 {
+    font-size: 4rem;
+  }
+  .divContacto .divContacto__divInfo h3 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .divContacto .formContacto {
+    width: 40rem;
+  }
+  .botonesContacto .botonesContacto__boton {
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .divContacto .divContacto__divInfo h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .divContacto .formContacto {
+    width: 35rem;
+  }
+  .botonesContacto .botonesContacto__boton {
+    height: 4rem;
+    width: 11rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .divContacto .formContacto {
+    width: 32rem;
+  }
+  .botonesContacto .botonesContacto__boton {
+    align-items: center;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .divContacto .formContacto {
+    width: 30rem;
   }
 }
 

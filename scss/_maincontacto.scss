@@ -1,64 +1,61 @@
 $colorLetrasOscuro: #424b54; 
 $colorLetrasMasOscuro: #25313d;  
-
+$fontFamily: 'nunito', sans-serif;
 
 .mainContacto {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
+    h1 {
+        margin-bottom: 6rem;
+    }
+}
 
+.divContacto {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 0 2rem 5rem 2rem;
+    font-family: $fontFamily;
+}
+
+.divContacto {
+    .divContacto__divInfo {
+        display: flex;
+        flex-flow: column nowrap;
+
+        h3 {
+            margin: 1.5rem;
+            text-align: left;
+            font-weight: bold;
+        }
+        ul {
+            margin-bottom: 2rem;
+            li {
+                color: $colorLetrasOscuro;
+                font-family: $fontFamily;
+                font-size: 1.8rem;
+            }
+        }
+        p {
+            color: $colorLetrasOscuro;
+
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.divContacto {
     .formContacto {
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-around;
         width: 50rem;
-
-        fieldset {
-            font-size: 2rem;
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: space-between;
-            align-items: center;
-            padding: 3rem;
-
-            .formContacto__encabezado {
-                color: $colorLetrasMasOscuro;
-                font-size: 2.3rem;
-            }
-        }
+        font-size: 1.5rem;
+        margin: 2rem;
     }
 }
 
-.colorFormulario {
-    color: $colorLetrasOscuro;
-    text-align: center;
-}
-
-.formContacto__formItems {
-    display: block;
+.form-check {
+    font-size: 1.5rem;
     margin: 1rem;
-    font-family: 'nunito', sans-serif;
-    width: 30rem;
-    height: 5rem;
-}
-
-.formContacto__div {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-
-    .marginItems {
-        margin: 1rem;
-    }
-}
-
-.formContacto__formItems--comentarios {
-    height: 15rem;
-}
-
-.formContacto__div__colorNews {
-    color: $colorLetrasMasOscuro;
 }
 
 .botonesContacto {
@@ -67,9 +64,8 @@ $colorLetrasMasOscuro: #25313d;
 
     .botonesContacto__boton {
         margin: 0rem 2.5rem;
-        height: 5rem;
-        width: 16rem;
+        height: 4rem;
+        width: 14rem;
         font-size: 1.5rem;
     }
 }
-
