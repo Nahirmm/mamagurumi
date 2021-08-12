@@ -73,6 +73,10 @@ header div nav div button .navbar-toggler-icon {
   font-weight: bold;
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .indexEncabezado {
   display: flex;
   flex-direction: row;
