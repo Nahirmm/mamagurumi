@@ -27,10 +27,6 @@ a {
   text-align: center;
 }
 
-.rotacion {
-  transform: rotate(-2deg);
-}
-
 .colorParrafo {
   color: #424b54;
   font-size: 2rem;
