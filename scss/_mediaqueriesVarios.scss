@@ -1,6 +1,24 @@
+$colorLetrasOscuro: #424b54; 
+
 @media (max-width: 990px) {
     .navbar-nav {
         align-items: center;
+    }
+
+    #navDropdown {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        background-color: transparent;
+    }
+
+    #menuNav {
+        li {
+            #navDropdown {
+                background-color: transparent; 
+                border: solid 1px $colorLetrasOscuro;
+            }
+        }
     }
 }
 

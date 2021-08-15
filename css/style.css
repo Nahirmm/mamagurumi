@@ -725,6 +725,16 @@ footer {
   .navbar-nav {
     align-items: center;
   }
+  #navDropdown {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    background-color: transparent;
+  }
+  #menuNav li #navDropdown {
+    background-color: transparent;
+    border: solid 1px #424b54;
+  }
 }
 
 @media only screen and (max-width: 768px) {
