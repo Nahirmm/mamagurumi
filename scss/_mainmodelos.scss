@@ -69,15 +69,15 @@ $sizeGenericoImagenesModelos: 28rem;
 }
 
 $mapImagenes: (
-        ganeshaykrishna: $sizeGenericoImagenes,
-        milo: $sizeGenericoImagenes,
-        laraysusdisfraces: $sizeGenericoImagenes,
-        camiloOso: $sizeGenericoImagenes,
+        ganeshaykrishna: $sizeGenericoImagenesModelos,
+        milo: $sizeGenericoImagenesModelos,
+        laraysusdisfraces: $sizeGenericoImagenesModelos,
+        camiloOso: $sizeGenericoImagenesModelos,
         candy: 45.39rem,
         cotorra: 22.50rem,
-        ursulaygatito: $sizeGenericoImagenes,
+        ursulaygatito: $sizeGenericoImagenesModelos,
         animalitos: 44rem,
-        kiaraydin: $sizeGenericoImagenes,
+        kiaraydin: $sizeGenericoImagenesModelos,
 );
 
 @each $nombre, $ancho in $mapImagenes {

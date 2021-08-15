@@ -1,11 +1,12 @@
-
-
+.mainNosotros {
+    margin-bottom: 4rem;
+}
 
 .sectionNosotros {
-    display: flex;
+    @extend .flexAndAlignCenter;
     flex-flow: row nowrap;
     margin: 1rem;
-    align-items: center;
+
 
     #familiaNosotros {
         width: 38.28rem;
@@ -20,9 +21,8 @@
 }
 
 #lineaFotosNosotros {
-    display: flex;
+    @extend .flexAndAlignCenter;
     flex-flow: row wrap;
-    align-items: center;
     justify-content: center;
     margin: 2rem;
 }

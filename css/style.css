@@ -32,6 +32,11 @@ a {
   font-size: 2rem;
 }
 
+.flexAndAlignCenter, .sectionNosotros, #lineaFotosNosotros {
+  display: flex;
+  align-items: center;
+}
+
 header div nav {
   background-image: linear-gradient(to top, #EBCFB2, white);
   width: 100%;
@@ -319,11 +324,13 @@ header div nav div button .navbar-toggler-icon {
   text-align: center;
 }
 
+.mainNosotros {
+  margin-bottom: 4rem;
+}
+
 .sectionNosotros {
-  display: flex;
   flex-flow: row nowrap;
   margin: 1rem;
-  align-items: center;
 }
 
 .sectionNosotros #familiaNosotros {
@@ -338,9 +345,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 #lineaFotosNosotros {
-  display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: center;
   margin: 2rem;
 }
