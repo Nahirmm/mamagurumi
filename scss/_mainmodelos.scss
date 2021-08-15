@@ -1,10 +1,19 @@
 $fontFamily: 'nunito', sans-serif;
+$colorLetrasMasOscuro: #25313d; 
+$sizeGenericoImagenesModelos: 28rem;
 
 .modelosTexto {
     text-align: center;
+    margin: 0 4rem 4rem 4rem;
 
     .modelosTexto__p {
         font-size: 2rem;
+        .linkContactoModelos {
+            font-weight: normal;
+            color: $colorLetrasMasOscuro;
+            font-size: 2rem;
+            text-decoration: underline;
+        }
     }
 }
 
@@ -13,7 +22,7 @@ $fontFamily: 'nunito', sans-serif;
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
-    margin: 4rem;
+    margin: 0rem 4rem;
 }
 
 .sectionModelos__Galeria__div {
@@ -59,85 +68,26 @@ $fontFamily: 'nunito', sans-serif;
     font-size: 1.8rem;
 }
 
-.ganeshaykrishna {
-    width: 28rem;
-    height: 28rem;
-}
+$mapImagenes: (
+        ganeshaykrishna: $sizeGenericoImagenes,
+        milo: $sizeGenericoImagenes,
+        laraysusdisfraces: $sizeGenericoImagenes,
+        camiloOso: $sizeGenericoImagenes,
+        candy: 45.39rem,
+        cotorra: 22.50rem,
+        ursulaygatito: $sizeGenericoImagenes,
+        animalitos: 44rem,
+        kiaraydin: $sizeGenericoImagenes,
+);
 
-.ganeshaykrishna:hover {
-    transform: scale(1.2,1.2);
-}
-
-.milo {
-    width: 28rem;
-    height: 28rem;    
-}
-
-.milo:hover {
-    transform: scale(1.2,1.2);
-}
-
-.laraysusdisfraces {
-    width: 28rem;
-    height: 28rem;
-}
-
-.laraysusdisfraces:hover {
-    transform: scale(1.2,1.2);
-}
-
-.camilooso {
-    width: 28rem;
-    height: 28rem;
-}
-
-.camilooso:hover {
-    transform: scale(1.2,1.2);
-}
-
-.candy {
-    width: 45.39rem;
-    height: 28rem;
-}
-
-.candy:hover {
-    transform: scale(1.2,1.2);
-}
-
-.cotorra {
-    width: 22.50rem;
-    height: 28rem;
-}
-
-.cotorra:hover {
-    transform: scale(1.2,1.2);
-}
-
-.ursulaygatito {
-    width: 28rem;
-    height: 28rem;    
-}
-
-.ursulaygatito:hover {
-    transform: scale(1.2,1.2);
-}
-
-.animalitos {
-    width: 44rem;
-    height: 28rem;
-}
-
-.animalitos:hover {
-    transform: scale(1.2,1.2);
-}
-
-.kiaraydin {
-    width: 28rem;
-    height: 28rem;     
-}
-
-.kiaraydin:hover {
-    transform: scale(1.2,1.2);
+@each $nombre, $ancho in $mapImagenes {
+    .#{$nombre} {
+        width: #{$ancho};
+        height: $sizeGenericoImagenesModelos;
+    }
+    .#{$nombre}:hover {
+        transform: scale(1.2,1.2);
+    }
 }
 
 

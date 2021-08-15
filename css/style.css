@@ -127,10 +127,18 @@ header div nav div button .navbar-toggler-icon {
 
 .modelosTexto {
   text-align: center;
+  margin: 0 4rem 4rem 4rem;
 }
 
 .modelosTexto .modelosTexto__p {
   font-size: 2rem;
+}
+
+.modelosTexto .modelosTexto__p .linkContactoModelos {
+  font-weight: normal;
+  color: #25313d;
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .sectionModelos__Galeria {
@@ -138,7 +146,7 @@ header div nav div button .navbar-toggler-icon {
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
-  margin: 4rem;
+  margin: 0rem 4rem;
 }
 
 .sectionModelos__Galeria__div {
@@ -213,12 +221,12 @@ header div nav div button .navbar-toggler-icon {
   transform: scale(1.2, 1.2);
 }
 
-.camilooso {
+.camiloOso {
   width: 28rem;
   height: 28rem;
 }
 
-.camilooso:hover {
+.camiloOso:hover {
   transform: scale(1.2, 1.2);
 }
 
@@ -232,7 +240,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .cotorra {
-  width: 22.50rem;
+  width: 22.5rem;
   height: 28rem;
 }
 
