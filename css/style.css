@@ -65,7 +65,7 @@ header div nav div button .navbar-toggler-icon {
 }
 
 #menuNav li #navDropdown {
-  background-color: #EBCFB2;
+  background-color: transparent;
 }
 
 #menuNav li #navDropdown li a {
@@ -726,10 +726,7 @@ footer {
     align-items: center;
   }
   #navDropdown {
-    display: flex;
-    flex-flow: column nowrap;
     text-align: center;
-    background-color: transparent;
   }
   #menuNav li #navDropdown {
     background-color: transparent;
