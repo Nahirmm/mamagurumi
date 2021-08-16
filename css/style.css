@@ -42,16 +42,16 @@ header div nav {
   width: 100%;
 }
 
-header div nav div #logo {
-  width: 17.8rem;
-  height: 10.6rem;
-  margin: 0.5rem;
-}
-
 header div nav div button .navbar-toggler-icon {
   width: 2.8125rem;
   height: 2.8125rem;
   margin: 0.1rem;
+}
+
+.logo {
+  width: 17.8rem;
+  height: 10.6rem;
+  margin: 0.5rem;
 }
 
 #menuNav li {
@@ -444,37 +444,25 @@ footer {
   height: 100%;
 }
 
-.footer {
+#footer {
   font-size: 2rem;
   background-image: linear-gradient(to bottom, #EBCFB2, white);
   border-top: solid 0.2rem #424b54;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
   align-items: center;
   padding: 3rem;
 }
 
-.footer__novedades {
-  align-items: center;
-  text-align: center;
+#footer .ulFooter li {
+  list-style-type: none;
 }
 
-.footer__novedades p {
-  margin: 1rem;
+#footer .ulFooter li a {
   color: #25313d;
-}
-
-.footer__novedades form .disenioFormFooter {
-  padding: 0.5rem;
-  font-family: "nunito", sans-serif;
-  font-size: 1.6rem;
-  width: 30rem;
-  margin: 0.5rem;
-}
-
-.footer__novedades form button {
-  padding: 0.5rem;
-  width: 15rem;
+  font-size: 1.8rem;
+  font-weight: normal;
 }
 
 .footer__redesSociales {
@@ -485,6 +473,11 @@ footer {
 .footer__redesSociales p {
   margin: 1rem;
   color: #25313d;
+}
+
+.logosRedesSocialesFooter {
+  width: 4rem;
+  height: 4rem;
 }
 
 @media (max-width: 820px) and (min-width: 768px) {
@@ -739,17 +732,25 @@ footer {
     font-size: 3.3rem;
     margin: 1rem;
   }
-  .footer__novedades form .disenioFormFooter {
-    width: 20rem;
+}
+
+@media only screen and (max-width: 583px) {
+  #footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .footer__redesSociales {
+    margin: 2rem 0;
+  }
+  #logoFooter {
+    margin-top: 3rem;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .footer {
+  #footer {
     font-size: 1.8rem;
-  }
-  .footer__novedades form .disenioFormFooter {
-    width: 20rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

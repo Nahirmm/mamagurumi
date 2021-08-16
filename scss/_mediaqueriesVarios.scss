@@ -24,28 +24,27 @@ $colorLetrasOscuro: #424b54;
         font-size: 3.3rem;
         margin: 1rem;
     }
+}
 
-        .footer__novedades {
-        form {
-            .disenioFormFooter {
-                width: 20rem;
-            }
-        }
+@media only screen and (max-width: 583px){
+    #footer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .footer__redesSociales {
+        margin: 2rem 0;
+    }
+
+    #logoFooter {
+        margin-top: 3rem;
     }
 }
 
-
 @media only screen and (max-width: 320px){
-    .footer {
+    #footer {
         font-size: 1.8rem;
-    }
-
-    .footer__novedades {
-        form {
-            .disenioFormFooter {
-                width: 20rem;
-            }
-        }
     }
 }
 
