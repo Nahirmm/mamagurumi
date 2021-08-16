@@ -2,7 +2,7 @@ $background: #EBCFB2;
 $colorLetrasOscuro: #424b54; 
 $colorLetrasMasOscuro: #25313d;  
 $fontFamily: 'nunito', sans-serif;
-$sizeGenericoImagenesModelos: 28rem;
+$sizeGenericoImagenesModelos: 25rem;
 $allPercentage: 100%;
 
 
@@ -19,6 +19,10 @@ html {
 body {
     background-color: $background;
     font-family: $fontFamily;
+}
+
+main {
+    padding: 2rem;
 }
 
 a {

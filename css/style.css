@@ -13,6 +13,10 @@ body {
   font-family: "nunito", sans-serif;
 }
 
+main {
+  padding: 2rem;
+}
+
 a {
   text-decoration: none;
   color: #424b54;
@@ -200,84 +204,48 @@ header div nav div button .navbar-toggler-icon {
 }
 
 .ganeshaykrishna {
-  width: 28rem;
-  height: 28rem;
-}
-
-.ganeshaykrishna:hover {
-  transform: scale(1.2, 1.2);
+  width: 25rem;
+  height: 25rem;
 }
 
 .milo {
-  width: 28rem;
-  height: 28rem;
-}
-
-.milo:hover {
-  transform: scale(1.2, 1.2);
+  width: 25rem;
+  height: 25rem;
 }
 
 .laraysusdisfraces {
-  width: 28rem;
-  height: 28rem;
-}
-
-.laraysusdisfraces:hover {
-  transform: scale(1.2, 1.2);
+  width: 25rem;
+  height: 25rem;
 }
 
 .camiloOso {
-  width: 28rem;
-  height: 28rem;
-}
-
-.camiloOso:hover {
-  transform: scale(1.2, 1.2);
+  width: 25rem;
+  height: 25rem;
 }
 
 .candy {
-  width: 45.39rem;
-  height: 28rem;
-}
-
-.candy:hover {
-  transform: scale(1.2, 1.2);
+  width: 40.53rem;
+  height: 25rem;
 }
 
 .cotorra {
-  width: 22.5rem;
-  height: 28rem;
-}
-
-.cotorra:hover {
-  transform: scale(1.2, 1.2);
+  width: 20.09rem;
+  height: 25rem;
 }
 
 .ursulaygatito {
-  width: 28rem;
-  height: 28rem;
-}
-
-.ursulaygatito:hover {
-  transform: scale(1.2, 1.2);
+  width: 25rem;
+  height: 25rem;
 }
 
 .animalitos {
-  width: 44rem;
-  height: 28rem;
-}
-
-.animalitos:hover {
-  transform: scale(1.2, 1.2);
+  width: 39.29rem;
+  height: 25rem;
 }
 
 .kiaraydin {
-  width: 28rem;
-  height: 28rem;
-}
-
-.kiaraydin:hover {
-  transform: scale(1.2, 1.2);
+  width: 25rem;
+  height: 25rem;
 }
 
 .configuracionHGenerico, .configuracionH-1, .sectionPatrones .sectionPatrones__estiloVideos h4, .configuracionH-2, h3 {
@@ -531,6 +499,36 @@ footer {
   #botonModelosT {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ganeshaykrishna:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .milo:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .laraysusdisfraces:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .camiloOso:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .candy:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .cotorra:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .ursulaygatito:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .animalitos:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .kiaraydin:hover {
+    transform: scale(1.2, 1.2);
   }
 }
 

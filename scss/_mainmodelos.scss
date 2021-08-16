@@ -1,6 +1,6 @@
 $fontFamily: 'nunito', sans-serif;
 $colorLetrasMasOscuro: #25313d; 
-$sizeGenericoImagenesModelos: 28rem;
+$sizeGenericoImagenesModelos: 25rem;
 
 .modelosTexto {
     text-align: center;
@@ -73,10 +73,10 @@ $mapImagenes: (
         milo: $sizeGenericoImagenesModelos,
         laraysusdisfraces: $sizeGenericoImagenesModelos,
         camiloOso: $sizeGenericoImagenesModelos,
-        candy: 45.39rem,
-        cotorra: 22.50rem,
+        candy: 40.53rem,
+        cotorra: 20.09rem,
         ursulaygatito: $sizeGenericoImagenesModelos,
-        animalitos: 44rem,
+        animalitos: 39.29rem,
         kiaraydin: $sizeGenericoImagenesModelos,
 );
 
@@ -84,9 +84,6 @@ $mapImagenes: (
     .#{$nombre} {
         width: #{$ancho};
         height: $sizeGenericoImagenesModelos;
-    }
-    .#{$nombre}:hover {
-        transform: scale(1.2,1.2);
     }
 }
 
