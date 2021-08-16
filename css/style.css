@@ -182,6 +182,7 @@ header div nav div button .navbar-toggler-icon {
 
 .sectionModelos__Galeria__div .divModelosFigure figure img {
   margin: 0.7rem;
+  padding: 0.7rem;
 }
 
 .sectionModelos__Galeria__div .divModelosFigure figure button {
@@ -545,6 +546,8 @@ footer {
   .sectionModelos__Galeria__div figure img {
     width: 100%;
     height: 100%;
+    margin: 0.7rem;
+    padding: 0.7rem;
   }
   .ganeshaykrishna {
     width: 100%;
