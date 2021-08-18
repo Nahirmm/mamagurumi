@@ -106,6 +106,10 @@ header div nav div button .navbar-toggler-icon {
   font-weight: bold;
 }
 
+.textoEncabezadoIndex {
+  font-size: 2.3rem;
+}
+
 .indexBotones {
   text-align: center;
   margin-bottom: 2rem;
@@ -175,7 +179,8 @@ header div nav div button .navbar-toggler-icon {
   flex-flow: column nowrap;
   align-items: center;
   margin: 2.5rem;
-  border: solid 1px black;
+  border: solid 0.5px #1b1b1b;
+  border-radius: 5%;
   width: auto;
   padding: 0.5rem;
 }
@@ -183,6 +188,7 @@ header div nav div button .navbar-toggler-icon {
 .sectionModelos__Galeria__div .divModelosFigure figure img {
   margin: 0.7rem;
   padding: 0.7rem;
+  border-radius: 5%;
 }
 
 .sectionModelos__Galeria__div .divModelosFigure figure button {
@@ -542,6 +548,7 @@ footer {
   }
   .sectionModelos__Galeria__div figure {
     width: 90%;
+    border: solid 1px black;
   }
   .sectionModelos__Galeria__div figure img {
     width: 100%;
