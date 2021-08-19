@@ -459,6 +459,14 @@ footer {
   .indexBotones .indexBotones__figure .indexBotones__figure--letra {
     font-size: 3rem;
   }
+  #botonModelosGyK {
+    width: 90%;
+    height: 90%;
+  }
+  #botonModelosT {
+    width: 90%;
+    height: 90%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -474,6 +482,17 @@ footer {
   }
   .indexBotones .indexBotones__figure .indexBotones__figure--letra {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 416px) and (min-width: 365px) {
+  #botonModelosGyK {
+    width: 95%;
+    height: 95%;
+  }
+  #botonModelosT {
+    width: 95%;
+    height: 95%;
   }
 }
 
