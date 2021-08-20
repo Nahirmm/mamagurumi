@@ -418,12 +418,6 @@ footer {
   width: 100%;
 }
 
-.footerFixed {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-}
-
 #footer {
   font-size: 2rem;
   background-image: linear-gradient(to bottom, #EBCFB2, white);
