@@ -1,6 +1,6 @@
 $colorLetrasOscuro: #424b54; 
 
-@media (max-width: 990px) {
+@media (max-width: 1195px) {
     .navbar-nav {
         align-items: center;
     }
@@ -9,6 +9,9 @@ $colorLetrasOscuro: #424b54;
         text-align: center;
     }
 
+}
+
+@media (max-width: 990px) {
     #menuNav {
         li {
             #navDropdown {

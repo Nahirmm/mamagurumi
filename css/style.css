@@ -707,12 +707,6 @@ footer {
   .mainFaqs .divTextoFaqs {
     order: 1;
   }
-  .mainFaqs .divTextoFaqs h2 {
-    font-size: 3.5rem;
-  }
-  .mainFaqs .divTextoFaqs h3 {
-    font-size: 2.5rem;
-  }
 }
 
 @media only screen and (max-width: 1073px) {
@@ -862,13 +856,16 @@ footer {
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1195px) {
   .navbar-nav {
     align-items: center;
   }
   #navDropdown {
     text-align: center;
   }
+}
+
+@media (max-width: 990px) {
   #menuNav li #navDropdown {
     background-color: transparent;
     border: solid 1px #424b54;
