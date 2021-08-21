@@ -620,8 +620,8 @@ footer {
 
 @media only screen and (max-width: 530px) {
   .sectionModelos__Galeria__div .divModelosFigure figure img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
   }
   .sectionModelos__Galeria__div .divModelosFigure figure button {
     font-size: 1.5rem;
