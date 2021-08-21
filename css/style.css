@@ -307,6 +307,39 @@ header div nav div button .navbar-toggler-icon {
   text-align: center;
 }
 
+.mainFaqs {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainFaqs .divImgFaqs {
+  margin: 2rem;
+}
+
+.mainFaqs .divImgFaqs img {
+  border-radius: 5%;
+}
+
+.mainFaqs .divTextoFaqs {
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.mainFaqs .divTextoFaqs h2 {
+  font-size: 4rem;
+  color: #222d38;
+  margin: 2rem;
+}
+
+.mainFaqs .divTextoFaqs h3 {
+  font-size: 2.8rem;
+  color: #25313d;
+  margin: 2rem;
+}
+
 .mainNosotros {
   margin-bottom: 4rem;
 }
@@ -653,6 +686,32 @@ footer {
   .sectionPatrones .sectionPatrones__estiloVideos iframe {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  .mainFaqs {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainFaqs .divImgFaqs {
+    order: 2;
+    text-align: center;
+  }
+  .mainFaqs .divImgFaqs img {
+    width: 80%;
+    height: 80%;
+  }
+  .mainFaqs .divTextoFaqs {
+    order: 1;
+  }
+  .mainFaqs .divTextoFaqs h2 {
+    font-size: 3.5rem;
+  }
+  .mainFaqs .divTextoFaqs h3 {
+    font-size: 2.5rem;
   }
 }
 
